@@ -1,5 +1,12 @@
 ## Detalhes do projeto
-Este projeto foi desenvolvido utilizando React com Vite como ferramenta de construção, aproveitando a velocidade e modernidade que Vite oferece. A estrutura do projeto foi organizada de forma a facilitar a manutenção e escalabilidade, separando o CSS em arquivos SCSS para simplificar a escrita de estilos. Além disso, utilizei o Bootstrap para acelerar o desenvolvimento de layouts responsivos.
+Este projeto foi desenvolvido utilizando React com Vite como ferramenta de construção, aproveitando a velocidade e modernidade que Vite oferece. A estrutura do projeto foi organizada de forma a facilitar a manutenção e escalabilidade, separando o CSS em arquivos SCSS para simplificar a escrita de estilos. Além disso, utilizei o Bootstrap para acelerar o desenvolvimento de layouts responsivos. 
+
+## Ferramentas utilizadas
+- React: Biblioteca JavaScript para construção de interfaces de usuário.
+- Vite: Ferramenta de construção rápida e moderna para projetos front-end.
+- SCSS: Extensão do CSS que permite o uso de variáveis, aninhamento e outras funcionalidades avançadas.
+- Bootstrap: Framework CSS para desenvolvimento de layouts responsivos e componentes reutilizáveis.
+- WSL (Windows Subsystem for Linux) Arch Linux: Ferramenta que permite rodar um ambiente Linux diretamente no Windows.
 
 ## Pré-requisitos
 Antes de começar, você precisa ter o Node.js instalado em sua máquina. O Node.js é essencial para gerenciar as dependências do projeto e executar o servidor de desenvolvimento. Você pode baixar o instalador do Node.js aqui.
