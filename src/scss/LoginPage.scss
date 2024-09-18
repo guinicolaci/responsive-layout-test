@@ -1,0 +1,71 @@
+@import './variables';
+
+#root {
+    max-width: $form-width;
+    margin: $margin;
+    padding: $padding;
+    background-color: $primary-color;
+    display: flex;
+    align-items: center;
+    height: $container-height;
+    border-radius: 8px;
+  }
+  
+  body {
+    margin: $margin;
+    display: flex;
+    place-items: center;
+    min-width: 320px;
+    min-height: 100vh;
+    position: absolute; 
+    right: 5%; 
+    background-color: $background-color; // Using new background color variable
+  }
+  
+  .mb-0 {
+    font-size: $font-size-base; // Using base font size variable
+  }
+  
+  .mb-2 {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    font-size: $font-size-small; // Using small font size variable
+    text-align: center;
+    width: $input-width; // Using input width variable
+  }
+  
+  .mb-3 {
+    width: $input-width; // Using input width variable
+  }
+  
+  .mb-6 {
+    font-size: $font-size-xlarge; // Using extra large font size variable
+  }
+  
+  .flex {
+      display: flex;
+      flex-wrap: nowrap;
+  }
+    
+  .flex > * {
+       flex-shrink: 0; 
+  }
+  
+  .login-container {
+      display: flex;
+      align-items: left; /* Align vertically */
+      margin-left: -35px; /* Use margin variable */
+      justify-content: flex-start; /* Align image to left side */
+  }
+  
+  .login-image {
+      width: 66%; /* Adjust as necessary */
+      display: block; /* Display image by default */
+  }
+  
+  @media (max-width: $tablet-breakpoint) { /* Use tablet breakpoint variable */
+      .login-image {
+          display: none; /* Hide image on mobile devices */
+      }
+  }

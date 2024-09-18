@@ -1,0 +1,35 @@
+@import './variables';
+
+// Form Control Styles
+.form-control {
+    width: $input-width;
+    height: $input-height;
+    padding: 0.5rem;
+    font-size: $font-size-base; // Using font size variable
+    margin-bottom: $margin-bottom; 
+}
+
+// Button Styles
+.btn {
+    width: $button-width;
+    height: $button-height;
+    font-size: $font-size-base; // Using font size variable
+    margin-bottom: $margin-bottom; 
+}
+
+// Placeholder Styles for Email Input
+#email::placeholder {
+    color: $placeholder-color; // Using placeholder color variable
+}
+
+// Placeholder Styles for Password Input
+#password::placeholder {
+    color: $placeholder-color; // Using placeholder color variable
+}
+
+// Error Message Styles (New)
+.error-message {
+    color: $error-color; // Using error color variable
+    font-size: $font-size-large; // Using large font size variable
+}
+  
